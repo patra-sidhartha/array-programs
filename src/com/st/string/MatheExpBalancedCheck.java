@@ -6,7 +6,7 @@ public class MatheExpBalancedCheck {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-        System.out.println(isBalanced("(({[]}))[]"));
+        System.out.println(isBalancedWithoutStack("(({[]}))[]"));
     }
 
     public static boolean isBalanced(String expr) {
@@ -28,4 +28,26 @@ public class MatheExpBalancedCheck {
         }
         return stack.isEmpty();
     }
+
+    public static boolean isBalancedWithoutStack(String s) {
+        char[] chars = s.toCharArray();
+        int top = -1; // Acts as our stack pointer
+
+        for (char ch : chars) {
+            if (ch == '(' || ch == '{' || ch == '[') {
+                chars[++top] = ch; // "Push" by moving the pointer
+            } else if (ch == ')' || ch == '}' || ch == ']') {
+                if (top == -1) return false;
+
+                char last = chars[top--]; // "Pop"
+                if ((ch == ')' && last != '(') ||
+                        (ch == '}' && last != '{') ||
+                        (ch == ']' && last != '[')) {
+                    return false;
+                }
+            }
+        }
+        return top == -1;
+    }
+
 }

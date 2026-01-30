@@ -19,8 +19,25 @@ public class FindDuplicateNumbers {
 //		findDuplicatesUsingHashSet(new int[] {20,10,30,50,20, 20,40,30});
 //		findDuplicatesWithStreams(new int[] {20,10,30,50,20, 20,40,30});
 
-        findFirstUniqueUsingHashMap(new int[] {20,10,30,50,20, 20,40,30});
-        findFirstUnique(new int[] {20,10,30,50,20, 20,40,30});
+//        findFirstUniqueUsingHashMap(new int[] {20,10,30,50,20, 20,40,30});
+//        findFirstUnique(new int[] {20,10,30,50,20, 20,40,30});
+
+        removeDuplicateInPlaceArray(new int[] {20,10,30,50,20, 20,40,30});
+    }
+
+    public static void removeDuplicateInPlaceArray(int[] arr) {
+        // Two Pointer Array on sorted array
+//        int[] {20,10,30,50,20, 20,40,30}
+        Arrays.sort(arr);
+        int left = 0;
+        for(int right=1; right<arr.length; right++ ) {
+            if(arr[left] != arr[right]) {
+                arr[left++] = arr[right];
+            }
+        }
+        for (int number: arr) {
+            System.out.print(number + " ");
+        }
     }
 
     public static void findDuplicatesNestedLoops(int[] array) {

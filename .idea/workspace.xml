@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c099c658-5108-4982-97a6-8eeb6d719b1e" name="Changes" comment="" />
+    <list default="true" id="c099c658-5108-4982-97a6-8eeb6d719b1e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/st/find/EqualSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/st/find/EquilibriumIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/st/find/LeadingElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/st/find/MinJumpsToReachTheEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/st/manipulation/AlternatePosNagNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/st/manipulation/PrefixMinMac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/st/manipulation/RotateArrayByKPositions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/st/manipulation/ZigZagArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/st/tda/TimeIntervalMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/array-programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/array-programs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/st/find/FindDuplicateNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/st/find/FindDuplicateNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/st/string/MatheExpBalancedCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/st/string/MatheExpBalancedCheck.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="38hc3oo0ZbXshnFau05Rrq7HvpI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,6 +42,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AlternatePosNagNumber.executor": "Run",
+    "Application.EqualSplit.executor": "Run",
+    "Application.EquilibriumIndex.executor": "Run",
+    "Application.LeadingElements.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MatheExpBalancedCheck.executor": "Run",
+    "Application.MinJumpsToReachTheEnd.executor": "Run",
+    "Application.PrefixMinMac.executor": "Run",
+    "Application.RotateArrayByKPositions.executor": "Run",
+    "Application.TimeIntervalMerge.executor": "Run",
+    "Application.ZigZagArray.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -31,11 +64,85 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="FindDuplicateNumbers" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.EqualSplit">
+    <configuration name="AlternatePosNagNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.st.manipulation.AlternatePosNagNumber" />
+      <module name="array-programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.st.manipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EqualSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.st.find.EqualSplit" />
+      <module name="array-programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.st.find.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EquilibriumIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.st.find.EquilibriumIndex" />
+      <module name="array-programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.st.find.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="array-programs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZigZagArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.st.manipulation.ZigZagArray" />
+      <module name="array-programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.st.manipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EqualSplit" />
+        <item itemvalue="Application.EquilibriumIndex" />
+        <item itemvalue="Application.AlternatePosNagNumber" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ZigZagArray" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
       </set>
     </attachedChunks>
   </component>
