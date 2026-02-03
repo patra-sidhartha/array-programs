@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c099c658-5108-4982-97a6-8eeb6d719b1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/st/find/EqualSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/st/find/EquilibriumIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/st/find/LeadingElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/st/find/MinJumpsToReachTheEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/st/manipulation/AlternatePosNagNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/st/manipulation/PrefixMinMac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/st/manipulation/RotateArrayByKPositions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/st/manipulation/ZigZagArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/st/tda/TimeIntervalMerge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/array-programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/array-programs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/st/arrays/function/ArraysFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/st/find/FindDuplicateNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/st/find/FindDuplicateNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/st/string/MatheExpBalancedCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/st/string/MatheExpBalancedCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array-programs/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +32,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AlternatePosNagNumber.executor": "Run",
+    "Application.ArraysFunction.executor": "Run",
     "Application.EqualSplit.executor": "Run",
     "Application.EquilibriumIndex.executor": "Run",
     "Application.LeadingElements.executor": "Run",
@@ -69,13 +59,26 @@
       <command value="FindDuplicateNumbers" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.EqualSplit">
+  <component name="RunManager" selected="Application.ArraysFunction">
     <configuration name="AlternatePosNagNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.st.manipulation.AlternatePosNagNumber" />
       <module name="array-programs" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.st.manipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraysFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.st.arrays.function.ArraysFunction" />
+      <module name="array-programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.st.arrays.function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZigZagArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.st.manipulation.ZigZagArray" />
-      <module name="array-programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.st.manipulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraysFunction" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.EqualSplit" />
         <item itemvalue="Application.EquilibriumIndex" />
         <item itemvalue="Application.AlternatePosNagNumber" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ZigZagArray" />
       </list>
     </recent_temporary>
   </component>
